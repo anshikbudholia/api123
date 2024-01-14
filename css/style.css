@@ -25,7 +25,7 @@ html,body{
 	background-color: aqua;
 }
 
-/* .nav-link{
+ .nav-link{
 	color: black;
 	font-weight: 600;
 }
@@ -85,9 +85,9 @@ html,body{
 .fas{
 	font-size-adjust: 32px;
 }
-/*----------- */
 
-/* .collection span{
+
+ .collection span{
 	color: yellowgreen;
 	font-size-adjust: 23px;
 	font-weight: 800;
@@ -118,8 +118,8 @@ html,body{
 	background-color: grey;
 	transition: 0.5s;
 }
-.parallex{
-	background:  url("https://www.firstfiddle.in/assets/images/bannerabout.jpg")no-repeat;
+.parallex {
+	background: url("https://www.firstfiddle.in/assets/images/bannerabout.jpg");
 	background-attachment: fixed;
 	background-size: 100% 100%;
 	width: 100%;
@@ -176,7 +176,7 @@ html,body{
 	color: yellowgreen;
 	transition: 0.3s;
 } */
-/* .article p{
+.article p{
 	font-size:21px;
 
 }
@@ -208,4 +208,4 @@ html,body{
 	border: none;
 	cursor: pointer;
 	display: inline-block; 
-}  */ 
+}  
