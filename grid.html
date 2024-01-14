@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid Css</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		body{
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.container{
+			width: 500px;
+			height: 450px;
+			display: grid;
+			grid-auto-columns: 70px 240px,70px;
+			grid-gap: 10px;
+			grid-template-rows: 50px 200p 50px;
+
+		}
+		.header{
+			background-color: antiquewhite;
+			grid-column: 1/4;
+		}
+		.left{
+			background-color: aquamarine;
+		}
+		.center{
+			background-color: lightblue;
+		}
+		.right{
+			background-color: yellowgreen;
+		}
+		.footer{
+			background-color: violet;
+			grid-column: 1/4;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">Header</div>
+	<div class="left">Left</div>
+
+		<div class="center">Center</div>
+	<div class="right">Right</div>
+
+		<div class="footer">Footer</div>
+</html>

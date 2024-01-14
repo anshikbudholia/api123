@@ -1,0 +1,129 @@
+
+
+.parallex{
+	
+
+	background:  url("https://technext.github.io/hexashop/assets/images/about-us-page-heading.jpg")no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	width: 100%;
+}
+.parallex h1{
+	font-size: 55px;
+	font-weight: 700;
+}
+.parallex p{
+	font-size: 22px;
+
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.nav-link{
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	color: black;
+	font-weight: 30px;
+	font-weight: 800;
+}
+.casourel-caption{
+	position: absolute;
+	top: 55%;
+	transform: translateY(-80%);
+	left: -8%;
+}
+.casourel-caption h1{
+	font-size: 70px;
+	font-weight: 400;
+	color: black;
+}
+.collection span{
+	color: yellowgreen;
+	font-size-adjust: 23px;
+	font-weight: 800;
+	padding-left: 5px;
+}
+.card{
+	border: none;
+}
+.collection input{
+	position: absolute;
+	height: 45px;
+	width: 110px;
+	background-color: yellowgreen;
+	color: white;
+	outline: none;
+	border: none;
+	text-align: center;
+	top: 40%;
+	left: 30%;
+	opacity: 0;
+}
+.collection .card:hover input{
+	opacity: 1;
+	transition: 1s;
+
+}
+.collection input:hover{
+	background-color: grey;
+	transition: 0.5s;
+}
+
+.collection span{
+	color: yellowgreen;
+	font-size-adjust: 23px;
+	font-weight: 800;
+	padding-left: 5px;
+}
+
+.card{
+	border: none;
+	outline: none;
+}
+.card p{
+	color: gray;
+
+}
+.circle{
+	height: 70px;
+	width: 70px;
+	background-color: lightgrey;
+	color: black;
+	padding: 12px;
+	font-size: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.card:hover .circle{
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+}
+.contact input{
+	height: 50px;
+	width: 100%;
+	outline: none;
+	border: none;
+	color: grey;
+	background-color: white;
+	padding: 10px;
+	-webkit-box-shadow: 0px 2px 28px-8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 28px -8px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 28px -8px rgba(0, 0, 0, 0.75);
+
+}
+.btn5{
+	height: 45px;
+	width: 160px;
+	background-color: yellowgreen;
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: inline-block; 
+}
